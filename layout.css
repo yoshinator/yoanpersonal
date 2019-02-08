@@ -1,9 +1,24 @@
 .site {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+    "header header header"
+    "project project project"
 }
 
 .mast-head {
-  display: grid; 
-  grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-area: header;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: 
+  "yoan header-image"
 }
+
+.header-image {
+  grid-area: header-image
+}
+
+.projects-heading{
+  grid-area: project
+}
+
