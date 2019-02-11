@@ -1,11 +1,28 @@
 .site {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
   grid-template-areas: 
     "header header header"
     "project project project"
 }
 
+@media (max-width: 1080px) {
+  .site {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      'header header'
+      'project project';
+  }
+}
+@media (max-width: 700px) {
+  .site {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'header '
+      'project ';
+  }
+}
 .mast-head {
   display: grid;
   grid-area: header;
