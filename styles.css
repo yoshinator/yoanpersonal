@@ -10,7 +10,7 @@ a, p, div, h1, h2, h3, h4, h5, h6, img {
 }
 
 .mast-head{
-  background: #102586;
+  background: rgb(16, 37, 134);
   width: 100%;
   border-bottom-right-radius: 100%;
 
@@ -41,14 +41,14 @@ a, p, div, h1, h2, h3, h4, h5, h6, img {
 
 .projects-heading {
 text-align: center;
-margin: 1rem;
+margin: 25px 30px 30px;
 }
 
 .project {
+  display: grid;
+  justify-content: center;
   margin-bottom: 30px;
-
   transition: .5s ease;
-
 }
 
 .project:hover {
@@ -60,12 +60,27 @@ margin: 1rem;
 }
 .project p {
   text-align: center;
+  color: rgba(16, 37, 134);
+}
+
+.project-details{
+  width: 80%;
+  margin-top: 15px;
+  justify-self: center;
+  text-align: center;
 }
 
 .project img {
   align-self: center;
   width: 20rem;
   border-radius: 5%;
+  box-shadow: 10px 10px 8px rgba(90, 109, 194, .3);
+  transition: .5s ease;
+
+}
+
+.project img:hover {
+  box-shadow: 10px 10px 8px rgba(197, 161, 0,.3)
 }
 
 a {
