@@ -5,9 +5,9 @@
 .color-p-4 { color: #0A1B6A }
 
 .color-sec-1-0 { color: #FFD100 }	/* Main Secondary color (1) */
-.color-sec-1-1 { color: #FFE363 }
+.color-sec-1-1 { color: rgb(255, 227, 99) }
 .color-sec-1-2 { color: #FFDB39 }
-.color-sec-1-3 { color: #C5A100 }
+.color-sec-1-3 { color: rgb(197, 161, 0) }
 .color-sec-1-4 { color: #9B7F00 }
 
 .color-sec-2-0 { color: #FF9400 }	/* Main Secondary color (2) */
