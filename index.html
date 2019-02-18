@@ -5,9 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Yoan Ante | Web Developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/styles.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="layout.css" />
   <script src="scripts.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 </head>
 <body class="site">
 
@@ -18,37 +21,66 @@
     </div>
     <img class="header-image" src="yoan.jpg" alt="Yoan Ante Web Developer" />
   </header>
+    
+  
+  <div class="social-icons">
+      <a href="https://linkedin.com/in/yoanante"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="https://medium.com/@yoanante"><i class="fab fa-medium fa-2x"></i></a>
+      <a href="https://github.com/yoshinator"><i class="fab fa-github-square fa-2x"></i></a>
+      <a href="mailto:yoanante@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+  </div>
+
+  <main class="yoan-content">
+    <p>Hi, </br>I'm Yoan. I love to code, ride my motorcycle and to hang out in nature. I was a small business owner for 6 years. I'm also a veteran of the U.S. Air Force. I sold my business in 2018 and decided to pursue a career as a software developer. I really enjoy learning and helping people. I love going to the movies but mainly for the popcorn and soda. I'm currently open to opportunities as a junior software developer. </br><hr /><span class="alternate">Getting in touch with me is easy. Just click one of the links on the left of the page.</span></p>
+    <br>
+    <div class="social-icons-small-screen">
+      Getting in touch with me is easy. Just tap one of the links below.</p>
+    <a href="https://linkedin.com/in/yoanante"><i class="fab fa-linkedin fa-3x"></i></a>
+    <a href="https://medium.com/@yoanante"><i class="fab fa-medium fa-3x"></i></a>
+    <a href="https://github.com/yoshinator"><i class="fab fa-github-square fa-3x"></i></a>
+    <a href="mailto:yoanante@gmail.com"><i class="fas fa-envelope-square fa-3x"></i></a>
+    </div>
+  </main>
+
 
   <h3 class="projects-heading">Projects</h3>
+    <div class="projects-container">
   
   <aside class="project" id="project-1">
 
-    <p class="project-title"><a href="http://yoanante.com/travelpal">Travel Pal</p>
-    <p><img src="yoan-ante-travel-pal.jpg" alt="yoan ante travel pal"/></p></a>
-    <p class="project-details">A travel itinenary app that allows you to create trips and add events to your trips. Built with Ruby on Rails this app requires a user to log in or create an account. Uses Google Places API to pull data about the locations. Sign in as yoan for the username and hello for the password to see some examples.</p>
+    <a href="http://yoanante.com/travelpal">Travel Pal</a>
+        <p class="project-details">A travel itinenary app that allows you to create trips and add events to your trips. Built
+          with Ruby on Rails this app requires a user to log in or create an account. Uses Google Places API to pull data about
+          the locations. Sign in as yoan for the username and hello for the password to see some examples.</p>
+    <img src="yoan-ante-travel-pal.jpg" alt="yoan ante travel pal"/>
   </aside>
   
   <aside class="project" id="project-2">
-    <p class="project-title" ><a href="http://yoanante.com/tictactaco">Tic-Tac-Taco</p>
-    <p><img src="yoan-ante-tic-tac-taco.jpg" alt="yoan ante tic tac taco"></p></a>
-    
-        <p class="project-details">Built Using a Ruby on Rails backend. Players are stored in the database along with all the games they've played. Click on one of the games to see the winnning board. No use authentication required but sign in as Yoan to see some previous games.</p>
+    <a href="http://yoanante.com/tictactaco">Tic-Tac-Taco</a>
+    <p class="project-details">Built Using a Ruby on Rails backend. Players are stored in the database along with all the games they've played. Click on one of the games to see the winnning board. No use authentication required but sign in as Yoan to see some previous games.</p>
+    <img src="yoan-ante-tic-tac-taco.jpg" alt="yoan ante tic tac taco">
   </aside>
   
   <aside class="project" id="project-3">
-    <p class="project-title"><a a href="http://yoanante.com/memory">Memory Castle</p>
-    <p><img src="yoan-ante-memory-castle.jpg" alt="yoan ante memory castle"></p></a>
-        <p class="project-details">React on the front end with a Ruby on Rails backend. All custom CSS. This app allows you to create "castles" where you can affix different messages to different parts of the castle for you to easily recall later. Log in with yoan as the user name to see some examples.</p>
+    <a a href="http://yoanante.com/memory">Memory Castle</a>
+    <p class="project-details">React on the front end with a Ruby on Rails backend. All custom CSS. This app allows you to create "castles" where you can affix different messages to different parts of the castle for you to easily recall later. Log in with yoan as the user name to see some examples.</p>
+    <img src="yoan-ante-memory-castle.jpg" alt="yoan ante memory castle">
   </aside>
   
 <aside class="project" id="project-4">
-  <p class="project-title" ><a a href="#">Dispatchio</p>
-    <p>Where are your people?</p>
-  <p><img src="yoan-ante-dispatchio.jpg" alt="yoan ante dispatchio"></p></a>
-      <p class="project-details">This app is a concept for a bigger app that allows business with a mobile workforce to dispatch their team members and get updates of the jobs they're doing. Built using React and Redux on the front end. Also uses Json Web Tokens for authorization. Rails is on the backend with 8 models. Has two views, one for managers and owners that presents a dashboard and a view for employees that only shows the jobs they are assigned to.</p>
+  <a a href="http://dispatchio.io">Dispatchio</a>
+  <p class="project-details">This app is a concept for a bigger app that allows business with a mobile workforce to dispatch their team members and get updates of the jobs they're doing. Built using React and Redux on the front end. Also uses Json Web Tokens for authorization. Rails is on the backend with 8 models. Has two views, one for managers and owners that presents a dashboard and a view for employees that only shows the jobs they are assigned to.</p>
+  <img src="yoan-ante-dispatchio.jpg" alt="yoan ante dispatchio">
 </aside>
 
+</div>
 
+<footer class="footer">
+
+
+</footer>
 
 </body>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
 </html>

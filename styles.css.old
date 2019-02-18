@@ -5,7 +5,9 @@ a, p, div, h1, h2, h3, h4, h5, h6, img {
 }
 
 .site {
-  margin: 5%;
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
   background-color: seashell;
 }
 
@@ -64,6 +66,8 @@ margin: 25px 30px 30px;
 .project p {
   text-align: center;
   color: rgba(16, 37, 134);
+  line-height: 1.5em;
+  font-size: 1.1em;
 }
 
 .project-title {
