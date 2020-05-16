@@ -175,7 +175,7 @@ main h2 {
   background-repeat:no-repeat;
   margin-top: 0;
   height: 100px;
-  background: indigo;
+  background: rgba(23, 23, 23, 0.10;
   overflow: auto;
   color: snow;
 }
