@@ -23,7 +23,9 @@
   display: relative;
   background-repeat:no-repeat;
   margin-top: 2%;
+  background-color: rgba(23, 23, 23, 0.1) !important;
   background-image: url('../header.jpg');
+  background-blend-mode: color;
   overflow: auto;
   color: snow;
 }
@@ -128,7 +130,7 @@ main h2 {
 }
 
 .project {
-  background: seashell;
+  background: rgba(255, 245, 238,1);
   text-align: center;
   padding: 1px;
   padding-top: 20px;
@@ -231,5 +233,15 @@ main h2 {
     transform: scale(1.07);
     color: goldenrod;
   } 
+
+.project{
+    background: rgba(255, 245, 238,.2);
+
+  }
+
+  .project p, .project a{
+    color: seashell;
+    font-size: 1.2em;
+  }
 
 }
