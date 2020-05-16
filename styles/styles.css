@@ -73,7 +73,6 @@ main h2 {
   text-decoration: none;
   color: seashell;
   transition: .5s ease;
-  
 }
 
 .social-icons .fas {
@@ -115,7 +114,6 @@ main h2 {
     padding: 6%;
     color: seashell;
     background: url('../connectwork.png');
-
 }
 
 .projects-container {
@@ -126,7 +124,6 @@ main h2 {
   grid-row-gap: 40px;
   margin: 1px;
   overflow: hidden;
-
 }
 
 .project {
