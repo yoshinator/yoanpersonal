@@ -208,7 +208,12 @@ main h2 {
 
   }
 
+  .social-icons-small-screen {
+    text-align: center;
+    text-transform: uppercase;
+  }
   .social-icons-small-screen .fab {
+    text-align: center;
     text-decoration: none;
     margin-right: 10%;
     color: rgb(48, 45, 43);
@@ -236,12 +241,19 @@ main h2 {
 
 .project{
     background: rgba(255, 245, 238,.2);
-
+    padding: 3em .7em;
   }
 
   .project p, .project a{
     color: seashell;
     font-size: 1.2em;
+  }
+
+  .project a {
+    font-size: 1em;
+    box-shadow: .1em .1em .3em seashell;
+    border-radius: .2em;
+    margin: 1em .4em;
   }
 
 }
