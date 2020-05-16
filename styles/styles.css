@@ -2,8 +2,17 @@
 .site {
   width: 80%;
   margin: auto;
-  background: url('../connectwork.png');
+  background-color: rgb(8, 8, 8,1);
   max-width: 900px;
+}
+
+.particles_full {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
 }
 
 .social-icons-small-screen {
@@ -39,6 +48,10 @@
 
 }
 
+main h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
 .mast-head img {
   width: 150px;
   border-radius: 50%;
@@ -92,12 +105,14 @@
 }
 
 .projects-heading {
-  font-size: 2.5em;
+  font-size: 3.5em;
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
-    margin-top: 0;
+    text-transform: uppercase;
+    margin-top: 1em;
     padding: 6%;
-    background: url('../projects.png');
+    color: seashell;
+    background: url('../connectwork.png');
 
 }
 
