@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/memory-castle-front-end/precache-manifest.40e531bc6d1967fed051e06c72be96b7.js"
+  "/memory-castle-front-end/precache-manifest.45b7b189f221043de2221d90df95a98e.js"
 );
 
 workbox.clientsClaim();

@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "86743a5319748988a69d",
+    "revision": "d714383611b4b590f14c",
     "url": "/memory-castle-front-end/static/css/main.82ae191d.chunk.css"
   },
   {
-    "revision": "86743a5319748988a69d",
-    "url": "/memory-castle-front-end/static/js/main.86743a53.chunk.js"
+    "revision": "d714383611b4b590f14c",
+    "url": "/memory-castle-front-end/static/js/main.d7143836.chunk.js"
   },
   {
     "revision": "7f0b306d0a2b45839998",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/memory-castle-front-end/static/media/SansForgetica-Regular.0399ab68.otf"
   },
   {
-    "revision": "2b6ad2f936d3eec8f1f88e024ee2068f",
+    "revision": "e6a0d97a661780b3b91acbea84a5f317",
     "url": "/memory-castle-front-end/index.html"
   }
 ];
